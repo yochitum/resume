@@ -1,3 +1,109 @@
+body {
+    font-family: 'Arimo', sans-serif;
+}
 .yochitum {
     text-align: center;
 }
+.yochitum img {
+    margin-top: 50px;
+    width: 250px;
+}
+.yochitum h1 {
+    font-size: 50px;
+}
+.name {
+    margin-right: 30px;
+}
+.surename {
+    margin-left: 50px;
+    font-weight: 700;
+}
+.presale {
+    color: #004AAD;
+    font-style: italic;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  .certificate {
+    width: 50%;
+    background-color: #292828;
+    color: white;
+    border-radius: 0.75rem;
+    padding-bottom: 4px;
+    /* padding-left: 5px; */
+  }
+  
+  .certificate-1 {
+    height: auto;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 120px 1fr;
+      grid-template-rows: 120px 120px 120px;
+      margin-bottom: 30px;
+      /* background-color: bisque; */
+  }
+
+  .cer-1 {
+    /* background-color: #00B9FF; */
+    /* grid-column: span 2; */
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .cer-2 {
+    /* background-color: #00B9FF; */
+    /* grid-column: span 2; */
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .cer-3 {
+    /* background-color: #00B9FF; */
+    /* grid-column: span 2; */
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .cer-4 {
+    /* background-color: #00B9FF; */
+    /* grid-column: span 2; */
+    grid-area: 1 / 2 / 4 / 3;
+    padding-top: 20px;
+  }
+  
+  .cer-img img {
+    width: 100%
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .exp-detail {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .experience {
+    margin-bottom: 30px;
+  }
+  .success {
+    /* background-color: bisque; */
+    height: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 120px 50%;
+    margin-top: 2%;
+    margin-bottom: 10px;
+  }
+  .success-logo {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .success-logo img {
+    width: 100%;
+  }
+  .success-detail h6 {
+    color: #004AAD;
+  }

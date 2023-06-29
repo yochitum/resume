@@ -28,7 +28,7 @@ body {
     border-radius: 0.75rem;
   }
   .certificate {
-    width: 50%;
+    width: 100%;
     background-color: #292828;
     color: white;
     border-radius: 0.75rem;
@@ -40,8 +40,8 @@ body {
     height: auto;
       display: grid;
       gap: 10px;
-      grid-template-columns: 120px 1fr;
-      grid-template-rows: 120px 120px 120px;
+      grid-template-columns: 120px;
+      grid-template-rows: 1fr / 1fr / 1fr;
       margin-bottom: 30px;
       /* background-color: bisque; */
   }
@@ -69,6 +69,7 @@ body {
     /* grid-column: span 2; */
     grid-area: 1 / 2 / 4 / 3;
     padding-top: 20px;
+    /* clear: both; */
   }
   
   .cer-img img {
@@ -79,10 +80,11 @@ body {
     display: flex;
     justify-content: center;
     justify-items: center;
+    height: max-content;
   }
 
   .exp-detail {
-    width: 50%;
+    width: 100%;
     margin-left: 20px;
   }
 
@@ -94,15 +96,20 @@ body {
     height: auto;
     display: grid;
     gap: 20px;
-    grid-template-columns: 120px 50%;
+    grid-template-columns: 120px;
     margin-top: 2%;
     margin-bottom: 10px;
+    width: 100%;
   }
   .success-logo {
     grid-area: 1 / 1 / 2 / 2;
   }
   .success-logo img {
     width: 100%;
+  }
+  .success-detail {
+    width: 100%;
+    grid-area: 1 / 2 / 2 / 3;
   }
   .success-detail h6 {
     color: #004AAD;

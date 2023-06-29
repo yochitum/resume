@@ -1,0 +1,321 @@
+* {
+    /* color: chartreuse; */
+    /* text-align: center; */
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.yochitum {
+    height: auto;
+    width: 50px;
+}
+
+.external-test {
+    color: aquamarine;
+}
+
+#css-id-test {
+    color: orange;
+}
+
+/* <!-- CSS Selector --> */
+ol {
+    /* margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside; */
+  }
+  
+  /* Write your CSS below, don't change the rules above. */
+  p{
+    color: red;
+  }
+  .note{
+    font-size: 20px;
+  }
+  #id-selector-demo{
+    color: green;
+  }
+  li[value="4"]{
+    color: blue;
+  }
+  *{
+    /* text-align: center; */
+  }
+
+/* <!-- CSS Selector --> */
+
+
+.CSS-colors-test {
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+
+.CSS-colors-test h1 {
+    background-color: darkgreen;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.CSS-colors-test h2 {
+    background-color: #C58940;
+    color: antiquewhite;
+}
+
+.CSS-colors-test-2 {
+    height: 200px;
+    width: 200px;
+    background-color: wheat;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.CSS-colors-test-2 h3 {
+    background-color: aquamarine;
+    color: blue;
+}
+
+.border-test-1 {
+    margin-top: 10px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    text-align: center;
+    
+}
+
+.border-test-1 h1 {
+    color: yellow;
+    font-size: 15px;
+}
+
+
+.border-test-2 {
+    margin-top: 10px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 20px solid black;
+    border-top: 0px;
+}
+
+.border-test-3 {
+    margin-top: 10px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 20px solid black;
+    border-width: 0px 10px 20px 30px;
+}
+
+.border-test-4 {
+    margin-top: 10px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.border-test-4 h1 {
+    color: yellow;
+    font-size: 15px;
+}
+
+.box-1 {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    margin-top: 10px;
+    border: 10px solid black;
+    padding: 20px;
+}
+
+.box-1 p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    border: 20px solid black;
+    border-width: 20px 10px 20px 10px;
+    margin-left: 200px;
+}
+
+.box-3 {
+    height: 200px;
+    width: 200px;
+    background-color: indianred;
+    border: 10px solid black;
+}
+
+/* <!-- Motivation Meme Project --> */
+.wrap-1 {
+    background-color: black;
+    /* width: 800px; */
+    height: auto;
+}
+.Motivation {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+}
+
+.Motivation h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.Motivation p {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.Motivation img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 5px solid white;
+}
+/* <!-- Motivation Meme Project --> */
+
+.descendant h1, h2 {
+ color: blueviolet;
+}
+
+.box > p {
+    color: firebrick;
+}
+
+.box  li {
+    color: blue;
+}
+
+.done {
+    color: green;
+}
+
+ul p.done {
+    font-size: 3rem;
+}
+
+/* Positioning */
+
+.red-circle {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* position: absolute; */
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+
+.blue-box {
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 100px;
+}
+
+.red-circle-2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+/* Positioning */
+
+/* CSS Displya Property */
+.display > p {
+    color: white;
+}
+
+.display-box {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+}
+
+.display-inline {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.display-inline-block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+/* CSS Displya Property */
+
+/* CSS Float */
+.wrap-2 > div {
+    display: inline-block;
+    width: 40%;
+  }
+
+  .wrap-2 > p {
+    font-size: 2em;
+  }
+
+  .wrap-2 .cat h2 {
+    color: black;
+  }
+
+  .wrap-2 .dog h2 {
+    color: black;
+  }
+
+  .first-paragraph {
+    color: black;
+  }
+
+  .second-paragraph {
+    color: black;
+  }
+
+  .cat {
+    background-color: aquamarine;
+    float: left;
+  }
+
+  .dog {
+    background-color: coral;
+    float: right;
+  }
+
+  .wrap-2 .cat img {
+    float: left;
+  }
+
+  .wrap-2 .dog img {
+    float: left;
+  }
+
+  .wrap-2 footer {
+    text-align: center;
+    background-color: blueviolet;
+    clear: both;
+  }
